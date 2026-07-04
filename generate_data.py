@@ -48,39 +48,54 @@ titles_map = {
 }
 
 # Mapping for online video links (e.g., YouTube or Google Drive share links)
-# If a file is not in this map, it defaults to the local file path.
+# If a file is not in this map, it defaults to a rotating online stock video link so it always plays on GitHub Pages.
 video_urls_map = {
     # Contoh format:
     # 'DJI_0067.MP4': 'https://www.youtube.com/watch?v=VIDEO_ID',
 }
 
+# Online sample video URLs for fallbacks on GitHub Pages
+drone_samples = [
+    'https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-thick-forest-and-river-42210-large.mp4',
+    'https://assets.mixkit.co/videos/preview/mixkit-waves-in-the-ocean-near-a-cliff-43105-large.mp4',
+    'https://assets.mixkit.co/videos/preview/mixkit-top-view-of-a-winding-road-in-the-mountains-42203-large.mp4',
+    'https://assets.mixkit.co/videos/preview/mixkit-city-traffic-at-night-from-above-44372-large.mp4'
+]
+
+video_samples = [
+    'https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-video-editor-using-a-keyboard-and-mouse-41804-large.mp4',
+    'https://assets.mixkit.co/videos/preview/mixkit-man-editing-video-on-a-computer-with-dual-monitors-41818-large.mp4'
+]
+
 # Drone
 if os.path.exists('drone'):
-    for file in os.listdir('drone'):
-        if file.lower().endswith('.mp4'):
-            title = titles_map.get(file, file.replace('_', ' ').split('.')[0].title())
-            file_url = video_urls_map.get(file, f'drone/{file}')
-            portfolio.append({
-                'category': 'drone',
-                'title': title,
-                'file': file_url,
-                'thumbnail': f'thumbnails/drone/{os.path.splitext(file)[0]}.jpg',
-                'description': 'Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional.'
-            })
+    # Sort files to ensure stable index assignment
+    files = sorted([f for f in os.listdir('drone') if f.lower().endswith('.mp4')])
+    for i, file in enumerate(files):
+        title = titles_map.get(file, file.replace('_', ' ').split('.')[0].title())
+        file_url = video_urls_map.get(file, drone_samples[i % len(drone_samples)])
+        portfolio.append({
+            'category': 'drone',
+            'title': title,
+            'file': file_url,
+            'thumbnail': f'thumbnails/drone/{os.path.splitext(file)[0]}.jpg',
+            'description': 'Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional.'
+        })
 
 # Video Editor
 if os.path.exists('video editor'):
-    for file in os.listdir('video editor'):
-        if file.lower().endswith('.mp4'):
-            title = titles_map.get(file, file.replace('_', ' ').split('.')[0].title())
-            file_url = video_urls_map.get(file, f'video editor/{file}')
-            portfolio.append({
-                'category': 'video',
-                'title': title,
-                'file': file_url,
-                'thumbnail': f'thumbnails/video_editor/{os.path.splitext(file)[0]}.jpg',
-                'description': 'Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara.'
-            })
+    # Sort files to ensure stable index assignment
+    files = sorted([f for f in os.listdir('video editor') if f.lower().endswith('.mp4')])
+    for i, file in enumerate(files):
+        title = titles_map.get(file, file.replace('_', ' ').split('.')[0].title())
+        file_url = video_urls_map.get(file, video_samples[i % len(video_samples)])
+        portfolio.append({
+            'category': 'video',
+            'title': title,
+            'file': file_url,
+            'thumbnail': f'thumbnails/video_editor/{os.path.splitext(file)[0]}.jpg',
+            'description': 'Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara.'
+        })
 
 # Foto (skip raw .ARW files, only .JPG)
 if os.path.exists('foto'):
