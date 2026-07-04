@@ -257,6 +257,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     videoId = item.file.split('youtu.be/')[1].split('?')[0].split('&')[0];
                 } else if (item.file.includes('youtube.com/embed/')) {
                     videoId = item.file.split('youtube.com/embed/')[1].split('?')[0].split('&')[0];
+                } else if (item.file.includes('/shorts/')) {
+                    videoId = item.file.split('/shorts/')[1].split('?')[0].split('&')[0];
                 } else {
                     videoId = item.file.split('v=')[1].split('&')[0];
                 }

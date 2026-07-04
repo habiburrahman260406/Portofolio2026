@@ -50,8 +50,25 @@ titles_map = {
 # Mapping for online video links (e.g., YouTube or Google Drive share links)
 # If a file is not in this map, it defaults to a rotating online stock video link so it always plays on GitHub Pages.
 video_urls_map = {
-    # Contoh format:
-    # 'DJI_0067.MP4': 'https://www.youtube.com/watch?v=VIDEO_ID',
+    'DJI_0067.MP4': 'https://youtu.be/upvSngGa7BU',
+    'DJI_0079.MP4': 'https://youtu.be/mratTnPaPmQ',
+    'DJI_0121.MP4': 'https://youtube.com/shorts/Y3fngNGmC4M?feature=share',
+    'DJI_0164.MP4': 'https://youtube.com/shorts/O6AGVVeOeOw?feature=share',
+    'DJI_0171.MP4': 'https://youtube.com/shorts/l83vtrAQD84?feature=share',
+    'DJI_0172.MP4': 'https://youtu.be/pTIoAnsZZf8',
+    'DJI_0259.MP4': 'https://youtu.be/QblzDi5I5Wo',
+    'DJI_0268.MP4': 'https://youtu.be/3z77sS7cqmc',
+    'DJI_0656.MP4': 'https://youtu.be/ukKESqg6BWk',
+    'DJI_0748.MP4': 'https://youtu.be/SpZG4FGl7ns',
+    'DJI_0843.MP4': 'https://youtu.be/vkFZGdGt5jI',
+    'DJI_0968.MP4': 'https://youtu.be/ayovJDktbyM',
+    'DJI_0975.MP4': 'https://youtu.be/76Uz41ge7dU',
+    'DJI_0988.MP4': 'https://youtube.com/shorts/8rYyzYm8qpE?feature=share',
+    'DJI_20260517091700_0356_D.MP4': 'https://youtu.be/dQhls0dhBjI',
+    'DJI_20260517092109_0361_D.MP4': 'https://youtube.com/shorts/GpUeV8ZNEjE?feature=share',
+    'DJI_20260517092447_0363_D.MP4': 'https://youtube.com/shorts/Teph8fz_h0c?feature=share',
+    'Quality Restoration-Ultra HD-DJI_20260206092037_0013_D.mp4': 'https://youtu.be/Jj31Epr3DRw',
+    'Quality Restoration-Ultra HD-DJI_20260206104550_0035_D.mp4': 'https://youtu.be/ncfUQQC4oyw',
 }
 
 # Online sample video URLs for fallbacks on GitHub Pages (using YouTube to prevent ISP blocks)

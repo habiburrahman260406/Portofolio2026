@@ -2,133 +2,133 @@ const portfolioData = [
   {
     "category": "drone",
     "title": "Dokumentasi Udara Gudang Shopee",
-    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
+    "file": "https://youtu.be/upvSngGa7BU",
     "thumbnail": "thumbnails/drone/DJI_0067.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Sinematik Kawasan Perumahan U Ville",
-    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
+    "file": "https://youtu.be/mratTnPaPmQ",
     "thumbnail": "thumbnails/drone/DJI_0079.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Perspektif Udara Jalan Raya",
-    "file": "https://www.youtube.com/watch?v=981m_1ZJ10Y",
+    "file": "https://youtube.com/shorts/Y3fngNGmC4M?feature=share",
     "thumbnail": "thumbnails/drone/DJI_0121.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Panorama Persawahan dari Udara",
-    "file": "https://www.youtube.com/watch?v=mG001_s_U4U",
+    "file": "https://youtube.com/shorts/O6AGVVeOeOw?feature=share",
     "thumbnail": "thumbnails/drone/DJI_0164.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Dokumentasi Udara Pelabuhan & Kapal Ferry",
-    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
+    "file": "https://youtube.com/shorts/l83vtrAQD84?feature=share",
     "thumbnail": "thumbnails/drone/DJI_0171.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Dokumentasi Udara Pelabuhan & Kapal Ferry",
-    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
+    "file": "https://youtu.be/pTIoAnsZZf8",
     "thumbnail": "thumbnails/drone/DJI_0172.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Pelepasan Siswa SDN Pamulang Timur",
-    "file": "https://www.youtube.com/watch?v=981m_1ZJ10Y",
+    "file": "https://youtu.be/QblzDi5I5Wo",
     "thumbnail": "thumbnails/drone/DJI_0259.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Perpisahan SDN Pamulang Timur",
-    "file": "https://www.youtube.com/watch?v=mG001_s_U4U",
+    "file": "https://youtu.be/3z77sS7cqmc",
     "thumbnail": "thumbnails/drone/DJI_0268.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Kenangan Perpisahan SDN Sawah Baru",
-    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
+    "file": "https://youtu.be/ukKESqg6BWk",
     "thumbnail": "thumbnails/drone/DJI_0656.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Pelepasan Siswa SDN Sawah Baru",
-    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
+    "file": "https://youtu.be/SpZG4FGl7ns",
     "thumbnail": "thumbnails/drone/DJI_0748.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "International Moslem Pencak Silat Championship 2025 100 Tahun Gontor",
-    "file": "https://www.youtube.com/watch?v=981m_1ZJ10Y",
+    "file": "https://youtu.be/vkFZGdGt5jI",
     "thumbnail": "thumbnails/drone/DJI_0843.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Trip Gunung Papandayan",
-    "file": "https://www.youtube.com/watch?v=mG001_s_U4U",
+    "file": "https://youtu.be/ayovJDktbyM",
     "thumbnail": "thumbnails/drone/DJI_0968.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Trip Gunung Papandayan",
-    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
+    "file": "https://youtu.be/76Uz41ge7dU",
     "thumbnail": "thumbnails/drone/DJI_0975.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Eksplorasi Alam Gunung Papandayan",
-    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
+    "file": "https://youtube.com/shorts/8rYyzYm8qpE?feature=share",
     "thumbnail": "thumbnails/drone/DJI_0988.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Wisuda Santri Pondok Pesantren Darel Azhar",
-    "file": "https://www.youtube.com/watch?v=981m_1ZJ10Y",
+    "file": "https://youtu.be/dQhls0dhBjI",
     "thumbnail": "thumbnails/drone/DJI_20260517091700_0356_D.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Prosesi Wisuda Santri Darel Azhar",
-    "file": "https://www.youtube.com/watch?v=mG001_s_U4U",
+    "file": "https://youtube.com/shorts/GpUeV8ZNEjE?feature=share",
     "thumbnail": "thumbnails/drone/DJI_20260517092109_0361_D.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Wisuda Santri Pondok Pesantren Darel Azhar",
-    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
+    "file": "https://youtube.com/shorts/Teph8fz_h0c?feature=share",
     "thumbnail": "thumbnails/drone/DJI_20260517092447_0363_D.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Penyambutan Muhaimin Iskandar di Darel Azhar & Syekh Quwait",
-    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
+    "file": "https://youtu.be/Jj31Epr3DRw",
     "thumbnail": "thumbnails/drone/Quality Restoration-Ultra HD-DJI_20260206092037_0013_D.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Penyambutan Muhaimin Iskandar di Darel Azhar & Syekh Quwait",
-    "file": "https://www.youtube.com/watch?v=981m_1ZJ10Y",
+    "file": "https://youtu.be/ncfUQQC4oyw",
     "thumbnail": "thumbnails/drone/Quality Restoration-Ultra HD-DJI_20260206104550_0035_D.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
