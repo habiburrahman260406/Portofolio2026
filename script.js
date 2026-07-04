@@ -249,26 +249,57 @@ document.addEventListener('DOMContentLoaded', () => {
         const isVideo = item.category === 'drone' || item.category === 'video';
 
         if (isVideo) {
-            const video = document.createElement('video');
-            video.src = item.file;
-            video.controls = true;
-            video.autoplay = true;
-            video.playsInline = true;
-            video.className = 'modal-video';
-            video.style.opacity = '0';
-            video.style.transition = 'opacity 0.3s ease';
+            const isYouTube = item.file.includes('youtube.com') || item.file.includes('youtu.be');
+            
+            if (isYouTube) {
+                let videoId = '';
+                if (item.file.includes('youtu.be/')) {
+                    videoId = item.file.split('youtu.be/')[1].split('?')[0].split('&')[0];
+                } else if (item.file.includes('youtube.com/embed/')) {
+                    videoId = item.file.split('youtube.com/embed/')[1].split('?')[0].split('&')[0];
+                } else {
+                    videoId = item.file.split('v=')[1].split('&')[0];
+                }
+                
+                const iframe = document.createElement('iframe');
+                iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+                iframe.className = 'modal-video';
+                iframe.setAttribute('frameborder', '0');
+                iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+                iframe.setAttribute('allowfullscreen', 'true');
+                iframe.style.opacity = '0';
+                iframe.style.transition = 'opacity 0.3s ease';
+                iframe.style.border = 'none';
 
-            video.addEventListener('loadeddata', () => {
-                const spinner = modalMediaWrapper.querySelector('.modal-spinner');
-                if (spinner) spinner.style.display = 'none';
-                video.style.opacity = '1';
-            });
+                iframe.addEventListener('load', () => {
+                    const spinner = modalMediaWrapper.querySelector('.modal-spinner');
+                    if (spinner) spinner.style.display = 'none';
+                    iframe.style.opacity = '1';
+                });
 
-            video.addEventListener('error', () => {
-                modalMediaWrapper.innerHTML = '<p class="error-msg">Gagal memuat video. Format file mungkin tidak didukung oleh browser Anda.</p>';
-            });
+                modalMediaWrapper.appendChild(iframe);
+            } else {
+                const video = document.createElement('video');
+                video.src = item.file;
+                video.controls = true;
+                video.autoplay = true;
+                video.playsInline = true;
+                video.className = 'modal-video';
+                video.style.opacity = '0';
+                video.style.transition = 'opacity 0.3s ease';
 
-            modalMediaWrapper.appendChild(video);
+                video.addEventListener('loadeddata', () => {
+                    const spinner = modalMediaWrapper.querySelector('.modal-spinner');
+                    if (spinner) spinner.style.display = 'none';
+                    video.style.opacity = '1';
+                });
+
+                video.addEventListener('error', () => {
+                    modalMediaWrapper.innerHTML = '<p class="error-msg">Gagal memuat video. Format file mungkin tidak didukung oleh browser Anda.</p>';
+                });
+
+                modalMediaWrapper.appendChild(video);
+            }
         } else {
             const img = document.createElement('img');
             img.src = item.file;
