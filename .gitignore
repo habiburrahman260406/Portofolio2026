@@ -1,6 +1,6 @@
 # Ignore large raw video folders
-drone/
-video editor/
+/drone/
+/video editor/
 
 # Ignore python cache
 __pycache__/
