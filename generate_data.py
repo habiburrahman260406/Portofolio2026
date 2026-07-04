@@ -47,15 +47,23 @@ titles_map = {
     'sw.mp4': 'Cerita Pendek Media Sosial',
 }
 
+# Mapping for online video links (e.g., YouTube or Google Drive share links)
+# If a file is not in this map, it defaults to the local file path.
+video_urls_map = {
+    # Contoh format:
+    # 'DJI_0067.MP4': 'https://www.youtube.com/watch?v=VIDEO_ID',
+}
+
 # Drone
 if os.path.exists('drone'):
     for file in os.listdir('drone'):
         if file.lower().endswith('.mp4'):
             title = titles_map.get(file, file.replace('_', ' ').split('.')[0].title())
+            file_url = video_urls_map.get(file, f'drone/{file}')
             portfolio.append({
                 'category': 'drone',
                 'title': title,
-                'file': f'drone/{file}',
+                'file': file_url,
                 'thumbnail': f'thumbnails/drone/{os.path.splitext(file)[0]}.jpg',
                 'description': 'Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional.'
             })
@@ -65,10 +73,11 @@ if os.path.exists('video editor'):
     for file in os.listdir('video editor'):
         if file.lower().endswith('.mp4'):
             title = titles_map.get(file, file.replace('_', ' ').split('.')[0].title())
+            file_url = video_urls_map.get(file, f'video editor/{file}')
             portfolio.append({
                 'category': 'video',
                 'title': title,
-                'file': f'video editor/{file}',
+                'file': file_url,
                 'thumbnail': f'thumbnails/video_editor/{os.path.splitext(file)[0]}.jpg',
                 'description': 'Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara.'
             })
