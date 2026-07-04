@@ -54,17 +54,17 @@ video_urls_map = {
     # 'DJI_0067.MP4': 'https://www.youtube.com/watch?v=VIDEO_ID',
 }
 
-# Online sample video URLs for fallbacks on GitHub Pages
+# Online sample video URLs for fallbacks on GitHub Pages (using YouTube to prevent ISP blocks)
 drone_samples = [
-    'https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-thick-forest-and-river-42210-large.mp4',
-    'https://assets.mixkit.co/videos/preview/mixkit-waves-in-the-ocean-near-a-cliff-43105-large.mp4',
-    'https://assets.mixkit.co/videos/preview/mixkit-top-view-of-a-winding-road-in-the-mountains-42203-large.mp4',
-    'https://assets.mixkit.co/videos/preview/mixkit-city-traffic-at-night-from-above-44372-large.mp4'
+    'https://www.youtube.com/watch?v=hBH_MhpxV94',
+    'https://www.youtube.com/watch?v=9nIsp83zK1o',
+    'https://www.youtube.com/watch?v=981m_1ZJ10Y',
+    'https://www.youtube.com/watch?v=mG001_s_U4U'
 ]
 
 video_samples = [
-    'https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-video-editor-using-a-keyboard-and-mouse-41804-large.mp4',
-    'https://assets.mixkit.co/videos/preview/mixkit-man-editing-video-on-a-computer-with-dual-monitors-41818-large.mp4'
+    'https://www.youtube.com/watch?v=9nIsp83zK1o',
+    'https://www.youtube.com/watch?v=hBH_MhpxV94'
 ]
 
 # Drone

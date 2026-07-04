@@ -2,266 +2,266 @@ const portfolioData = [
   {
     "category": "drone",
     "title": "Dokumentasi Udara Gudang Shopee",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-thick-forest-and-river-42210-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/drone/DJI_0067.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Sinematik Kawasan Perumahan U Ville",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-waves-in-the-ocean-near-a-cliff-43105-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/drone/DJI_0079.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Perspektif Udara Jalan Raya",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-top-view-of-a-winding-road-in-the-mountains-42203-large.mp4",
+    "file": "https://www.youtube.com/watch?v=981m_1ZJ10Y",
     "thumbnail": "thumbnails/drone/DJI_0121.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Panorama Persawahan dari Udara",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-city-traffic-at-night-from-above-44372-large.mp4",
+    "file": "https://www.youtube.com/watch?v=mG001_s_U4U",
     "thumbnail": "thumbnails/drone/DJI_0164.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Dokumentasi Udara Pelabuhan & Kapal Ferry",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-thick-forest-and-river-42210-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/drone/DJI_0171.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Dokumentasi Udara Pelabuhan & Kapal Ferry",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-waves-in-the-ocean-near-a-cliff-43105-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/drone/DJI_0172.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Pelepasan Siswa SDN Pamulang Timur",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-top-view-of-a-winding-road-in-the-mountains-42203-large.mp4",
+    "file": "https://www.youtube.com/watch?v=981m_1ZJ10Y",
     "thumbnail": "thumbnails/drone/DJI_0259.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Perpisahan SDN Pamulang Timur",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-city-traffic-at-night-from-above-44372-large.mp4",
+    "file": "https://www.youtube.com/watch?v=mG001_s_U4U",
     "thumbnail": "thumbnails/drone/DJI_0268.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Kenangan Perpisahan SDN Sawah Baru",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-thick-forest-and-river-42210-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/drone/DJI_0656.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Pelepasan Siswa SDN Sawah Baru",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-waves-in-the-ocean-near-a-cliff-43105-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/drone/DJI_0748.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "International Moslem Pencak Silat Championship 2025 100 Tahun Gontor",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-top-view-of-a-winding-road-in-the-mountains-42203-large.mp4",
+    "file": "https://www.youtube.com/watch?v=981m_1ZJ10Y",
     "thumbnail": "thumbnails/drone/DJI_0843.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Trip Gunung Papandayan",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-city-traffic-at-night-from-above-44372-large.mp4",
+    "file": "https://www.youtube.com/watch?v=mG001_s_U4U",
     "thumbnail": "thumbnails/drone/DJI_0968.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Trip Gunung Papandayan",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-thick-forest-and-river-42210-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/drone/DJI_0975.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Eksplorasi Alam Gunung Papandayan",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-waves-in-the-ocean-near-a-cliff-43105-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/drone/DJI_0988.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Wisuda Santri Pondok Pesantren Darel Azhar",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-top-view-of-a-winding-road-in-the-mountains-42203-large.mp4",
+    "file": "https://www.youtube.com/watch?v=981m_1ZJ10Y",
     "thumbnail": "thumbnails/drone/DJI_20260517091700_0356_D.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Prosesi Wisuda Santri Darel Azhar",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-city-traffic-at-night-from-above-44372-large.mp4",
+    "file": "https://www.youtube.com/watch?v=mG001_s_U4U",
     "thumbnail": "thumbnails/drone/DJI_20260517092109_0361_D.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Wisuda Santri Pondok Pesantren Darel Azhar",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-thick-forest-and-river-42210-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/drone/DJI_20260517092447_0363_D.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Penyambutan Muhaimin Iskandar di Darel Azhar & Syekh Quwait",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-waves-in-the-ocean-near-a-cliff-43105-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/drone/Quality Restoration-Ultra HD-DJI_20260206092037_0013_D.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "drone",
     "title": "Penyambutan Muhaimin Iskandar di Darel Azhar & Syekh Quwait",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-top-view-of-a-winding-road-in-the-mountains-42203-large.mp4",
+    "file": "https://www.youtube.com/watch?v=981m_1ZJ10Y",
     "thumbnail": "thumbnails/drone/Quality Restoration-Ultra HD-DJI_20260206104550_0035_D.jpg",
     "description": "Sinematografi udara yang direkam dalam resolusi 4K menggunakan perangkat drone profesional."
   },
   {
     "category": "video",
     "title": "Proyek Video Promosi Klien",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-video-editor-using-a-keyboard-and-mouse-41804-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/video_editor/0202.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "UPTD SDN Sawah Baru",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-man-editing-video-on-a-computer-with-dual-monitors-41818-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/video_editor/1005.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Edit Iklan Produk Komersial",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-video-editor-using-a-keyboard-and-mouse-41804-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/video_editor/30 fps.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Proyek Video Promosi Klien",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-man-editing-video-on-a-computer-with-dual-monitors-41818-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/video_editor/Bismillah finish cuan.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Promo Komersial U Ville",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-video-editor-using-a-keyboard-and-mouse-41804-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/video_editor/U ville.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Dokumentasi Acara Tasyakuran",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-man-editing-video-on-a-computer-with-dual-monitors-41818-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/video_editor/acc tasyakuran.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Arsip Video Acara Perusahaan",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-video-editor-using-a-keyboard-and-mouse-41804-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/video_editor/arsip.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Sorotan Video Montage / Reel",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-man-editing-video-on-a-computer-with-dual-monitors-41818-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/video_editor/bismillah last fix acc.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Dokumentasi Perjalanan Bogor",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-video-editor-using-a-keyboard-and-mouse-41804-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/video_editor/bogor fix kali.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Narasi Sinematik Pendek",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-man-editing-video-on-a-computer-with-dual-monitors-41818-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/video_editor/fix nih pasti.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Sorotan Instagram Reels",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-video-editor-using-a-keyboard-and-mouse-41804-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/video_editor/jadi.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Pelepasan Siswa SDN Pamulang Timur",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-man-editing-video-on-a-computer-with-dual-monitors-41818-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/video_editor/jadi2.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Perpisahan Santri Kelas 6 Darel Azhar",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-video-editor-using-a-keyboard-and-mouse-41804-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/video_editor/jajal dlu_1.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Vlog Sinematik Pantai Anyer",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-man-editing-video-on-a-computer-with-dual-monitors-41818-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/video_editor/pantai anyer.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Eksperimen Creative Color Grading",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-video-editor-using-a-keyboard-and-mouse-41804-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/video_editor/pikachu1.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Sorotan Vlog & B-Roll Sinematik",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-man-editing-video-on-a-computer-with-dual-monitors-41818-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/video_editor/rembes 1 bismillah.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Sinkronisasi Sinematik Video Musik",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-video-editor-using-a-keyboard-and-mouse-41804-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/video_editor/sound revisi.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Cerita Pendek Media Sosial",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-man-editing-video-on-a-computer-with-dual-monitors-41818-large.mp4",
+    "file": "https://www.youtube.com/watch?v=hBH_MhpxV94",
     "thumbnail": "thumbnails/video_editor/sw.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Sinematik Kampus UNPAM 60FPS",
-    "file": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-video-editor-using-a-keyboard-and-mouse-41804-large.mp4",
+    "file": "https://www.youtube.com/watch?v=9nIsp83zK1o",
     "thumbnail": "thumbnails/video_editor/unpam drone 60 fps.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
