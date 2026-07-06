@@ -49,6 +49,8 @@ html {
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: var(--color-secondary) var(--bg-primary);
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body {
@@ -1600,12 +1602,14 @@ li {
         padding: 100px 40px;
         gap: 24px;
         z-index: 1005;
-        transition: right var(--transition-normal);
+        transition: right var(--transition-normal), visibility var(--transition-normal);
         box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+        visibility: hidden;
     }
     
     .nav-menu.active {
         right: 0;
+        visibility: visible;
     }
     
     .nav-btn-mobile {
@@ -1634,6 +1638,10 @@ li {
         width: 100%;
     }
     
+    .about-image-frame {
+        max-width: 280px;
+    }
+
     .about-info-cards {
         grid-template-columns: 1fr;
     }
