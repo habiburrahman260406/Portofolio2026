@@ -250,34 +250,51 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (isVideo) {
             const isYouTube = item.file.includes('youtube.com') || item.file.includes('youtu.be');
-            
-            if (isYouTube) {
-                let videoId = '';
-                const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|shorts\/|watch\?v=|\&v=)([^#\&\?]*).*/;
-                const match = item.file.match(regExp);
-                if (match && match[2].length === 11) {
-                    videoId = match[2];
-                } else {
-                    if (item.file.includes('youtu.be/')) {
-                        videoId = item.file.split('youtu.be/')[1].split('?')[0].split('&')[0];
-                    } else if (item.file.includes('youtube.com/embed/')) {
-                        videoId = item.file.split('youtube.com/embed/')[1].split('?')[0].split('&')[0];
-                    } else if (item.file.includes('/shorts/')) {
-                        videoId = item.file.split('/shorts/')[1].split('?')[0].split('&')[0];
-                    } else if (item.file.includes('v=')) {
-                        videoId = item.file.split('v=')[1].split('&')[0];
+
+            const getYouTubeVideoId = (url) => {
+                try {
+                    let videoId = '';
+                    const regExp = /^.*(?:youtu\.be\/|v\/|u\/\w\/|embed\/|shorts\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+                    const match = url.match(regExp);
+                    if (match && match[1].length === 11) {
+                        return match[1];
                     }
+
+                    if (url.includes('youtu.be/')) {
+                        return url.split('youtu.be/')[1].split('?')[0].split('&')[0];
+                    }
+                    if (url.includes('youtube.com/embed/')) {
+                        return url.split('youtube.com/embed/')[1].split('?')[0].split('&')[0];
+                    }
+                    if (url.includes('/shorts/')) {
+                        return url.split('/shorts/')[1].split('?')[0].split('&')[0];
+                    }
+                    if (url.includes('v=')) {
+                        return url.split('v=')[1].split('&')[0];
+                    }
+                } catch (error) {
+                    console.error('YouTube ID parsing error:', error, url);
                 }
-                
+                return '';
+            };
+
+            if (isYouTube) {
+                const videoId = getYouTubeVideoId(item.file);
                 const iframe = document.createElement('iframe');
-                iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
                 iframe.className = 'modal-video';
                 iframe.setAttribute('frameborder', '0');
-                iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+                iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
                 iframe.setAttribute('allowfullscreen', 'true');
+                iframe.loading = 'lazy';
                 iframe.style.opacity = '0';
                 iframe.style.transition = 'opacity 0.3s ease';
                 iframe.style.border = 'none';
+
+                if (videoId) {
+                    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`;
+                } else {
+                    iframe.src = item.file;
+                }
 
                 iframe.addEventListener('load', () => {
                     const spinner = modalMediaWrapper.querySelector('.modal-spinner');

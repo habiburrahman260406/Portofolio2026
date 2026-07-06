@@ -69,6 +69,27 @@ video_urls_map = {
     'DJI_20260517092447_0363_D.MP4': 'https://youtube.com/shorts/Teph8fz_h0c?feature=share',
     'Quality Restoration-Ultra HD-DJI_20260206092037_0013_D.mp4': 'https://youtu.be/Jj31Epr3DRw',
     'Quality Restoration-Ultra HD-DJI_20260206104550_0035_D.mp4': 'https://youtu.be/ncfUQQC4oyw',
+
+    # Video Editor links - replace with your actual YouTube uploads if available
+    '0202.mp4': 'https://www.youtube.com/watch?v=9nIsp83zK1o',
+    '1005.mp4': 'https://www.youtube.com/watch?v=hBH_MhpxV94',
+    '30 fps.mp4': 'https://www.youtube.com/watch?v=981m_1ZJ10Y',
+    'Bismillah finish cuan.mp4': 'https://www.youtube.com/watch?v=mG001_s_U4U',
+    'U ville.mp4': 'https://www.youtube.com/watch?v=hBH_MhpxV94',
+    'acc tasyakuran.mp4': 'https://www.youtube.com/watch?v=9nIsp83zK1o',
+    'arsip.mp4': 'https://www.youtube.com/watch?v=hBH_MhpxV94',
+    'bismillah last fix acc.mp4': 'https://www.youtube.com/watch?v=981m_1ZJ10Y',
+    'bogor fix kali.mp4': 'https://www.youtube.com/watch?v=mG001_s_U4U',
+    'fix nih pasti.mp4': 'https://www.youtube.com/watch?v=hBH_MhpxV94',
+    'jadi.mp4': 'https://www.youtube.com/watch?v=9nIsp83zK1o',
+    'jadi2.mp4': 'https://www.youtube.com/watch?v=981m_1ZJ10Y',
+    'jajal dlu_1.mp4': 'https://www.youtube.com/watch?v=mG001_s_U4U',
+    'pantai anyer.mp4': 'https://www.youtube.com/watch?v=hBH_MhpxV94',
+    'pikachu1.mp4': 'https://www.youtube.com/watch?v=9nIsp83zK1o',
+    'rembes 1 bismillah.mp4': 'https://www.youtube.com/watch?v=981m_1ZJ10Y',
+    'sound revisi.mp4': 'https://www.youtube.com/watch?v=mG001_s_U4U',
+    'sw.mp4': 'https://www.youtube.com/watch?v=hBH_MhpxV94',
+    'unpam drone 60 fps.mp4': 'https://www.youtube.com/watch?v=9nIsp83zK1o',
 }
 
 # Online sample video URLs for fallbacks on GitHub Pages (using YouTube to prevent ISP blocks)
