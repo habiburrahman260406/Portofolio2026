@@ -135,133 +135,133 @@ const portfolioData = [
   {
     "category": "video",
     "title": "Proyek Video Promosi Klien",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/SIF7IbulcAQ",
     "thumbnail": "thumbnails/video_editor/0202.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "UPTD SDN Sawah Baru",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/Z2JRBC9VlpU",
     "thumbnail": "thumbnails/video_editor/1005.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Edit Iklan Produk Komersial",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/kbaWlWsIA0Q",
     "thumbnail": "thumbnails/video_editor/30 fps.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Proyek Video Promosi Klien",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/zKKI0TYdeSE",
     "thumbnail": "thumbnails/video_editor/Bismillah finish cuan.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Promo Komersial U Ville",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/qEquwzZ9CbU",
     "thumbnail": "thumbnails/video_editor/U ville.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Dokumentasi Acara Tasyakuran",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/oAoflvWNbow",
     "thumbnail": "thumbnails/video_editor/acc tasyakuran.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Arsip Video Acara Perusahaan",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/nIxt7fZFIBY",
     "thumbnail": "thumbnails/video_editor/arsip.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Sorotan Video Montage / Reel",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/3TfNvc36PxQ",
     "thumbnail": "thumbnails/video_editor/bismillah last fix acc.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Dokumentasi Perjalanan Bogor",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/tRmh3pPRmIo",
     "thumbnail": "thumbnails/video_editor/bogor fix kali.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Narasi Sinematik Pendek",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/QDsvLYwNW58",
     "thumbnail": "thumbnails/video_editor/fix nih pasti.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Sorotan Instagram Reels",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/_RKtrBEb3wA",
     "thumbnail": "thumbnails/video_editor/jadi.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Pelepasan Siswa SDN Pamulang Timur",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/WPeozCZf3T0",
     "thumbnail": "thumbnails/video_editor/jadi2.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Perpisahan Santri Kelas 6 Darel Azhar",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtube.com/shorts/aSROj_lPrS8?feature=share",
     "thumbnail": "thumbnails/video_editor/jajal dlu_1.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Vlog Sinematik Pantai Anyer",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtube.com/shorts/e9jx4TlnWdQ?feature=share",
     "thumbnail": "thumbnails/video_editor/pantai anyer.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Eksperimen Creative Color Grading",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtube.com/shorts/H9bhQkA9Ymc?feature=share",
     "thumbnail": "thumbnails/video_editor/pikachu1.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Sorotan Vlog & B-Roll Sinematik",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtube.com/shorts/cd_zVum7pQM?feature=share",
     "thumbnail": "thumbnails/video_editor/rembes 1 bismillah.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Sinkronisasi Sinematik Video Musik",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtube.com/shorts/AwJhihQakWk?feature=share",
     "thumbnail": "thumbnails/video_editor/sound revisi.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Cerita Pendek Media Sosial",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/SIF7IbulcAQ",
     "thumbnail": "thumbnails/video_editor/sw.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
   {
     "category": "video",
     "title": "Sinematik Kampus UNPAM 60FPS",
-    "file": "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "file": "https://youtu.be/Z2JRBC9VlpU",
     "thumbnail": "thumbnails/video_editor/unpam drone 60 fps.jpg",
     "description": "Penyuntingan video (editing), desain suara, dan color grading untuk kebutuhan video komersial maupun dokumentasi acara."
   },
