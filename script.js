@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalCategory = document.getElementById('modalCategory');
     const modalTitle = document.getElementById('modalTitle');
     const modalDescription = document.getElementById('modalDescription');
-    const modalDownloadBtn = document.getElementById('modalDownloadBtn');
     const contactForm = document.getElementById('contactForm');
 
     // State Variables
@@ -243,7 +242,6 @@ document.addEventListener('DOMContentLoaded', () => {
         modalCategory.textContent = categoryMap[item.category] || item.category;
         modalTitle.textContent = item.title;
         modalDescription.textContent = item.description;
-        modalDownloadBtn.href = item.file;
 
         // Load media content asynchronously
         const isVideo = item.category === 'drone' || item.category === 'video';
